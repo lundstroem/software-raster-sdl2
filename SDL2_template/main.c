@@ -58,7 +58,7 @@ static void check_sdl_events(SDL_Event event) {
                 quit = true;
                 break;
             case SDL_KEYDOWN:
-                handle_key_down( &event.key.keysym );
+                handle_key_down(&event.key.keysym);
                 break;
         }
     }
@@ -79,7 +79,7 @@ int main(int argc, char **argv) {
     }
     
     // create a window
-    window = SDL_CreateWindow("SDL 2 window",           // window title
+    window = SDL_CreateWindow("software raster SDL2",           // window title
                             SDL_WINDOWPOS_CENTERED,     // x position, centered
                             SDL_WINDOWPOS_CENTERED,     // y position, centered
                             screen_width,               // width, in pixels
