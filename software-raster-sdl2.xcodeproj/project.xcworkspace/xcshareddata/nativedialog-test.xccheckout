@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>783EBD59-B4F3-45F3-AF9B-71AD84452380</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A8B747D587007E4E71802B06564871455E36C59</key>
+		<string>https://github.com/mlabbe/nativefiledialog.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A8B747D587007E4E71802B06564871455E36C59</key>
+		<string>nativefiledialog/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mlabbe/nativefiledialog.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A8B747D587007E4E71802B06564871455E36C59</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A8B747D587007E4E71802B06564871455E36C59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nativefiledialog</string>
+		</dict>
+	</array>
+</dict>
+</plist>
