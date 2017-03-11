@@ -187,11 +187,13 @@ int main(int argc, char **argv) {
         if(offset < 0) {
             offset = 0;
         }
+        // write noise to raster
         for (int x = 0; x < s_width; x++) {
             for (int y = 0; y < s_height-(offset*2); y++) {
                 set_pixel(x, y, rand()*0.01);
             }
         }
+        // convert raster2d to raster with offset
         for (int r_x = 0; r_x < s_width; r_x++) {
             for (int r_y = 0; r_y < s_height; r_y++) {
                 int p_y = r_y + offset;
