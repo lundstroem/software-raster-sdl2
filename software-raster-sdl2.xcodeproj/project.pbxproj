@@ -32,8 +32,6 @@
 		0399B2F417F35C1D005ACCBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0399B2F617F35C1D005ACCBE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0399B30717F35D84005ACCBE /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
-		03A3F60C1A9DBB21005F8731 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		03A3F60E1A9DBFDC005F8731 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +51,6 @@
 			children = (
 				0399B30717F35D84005ACCBE /* SDL2.framework */,
 				0399B2F017F35C1D005ACCBE /* SDL2_template */,
-				0399B2E917F35C1D005ACCBE /* Frameworks */,
 				0399B2E817F35C1D005ACCBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,15 +61,6 @@
 				0399B2E717F35C1D005ACCBE /* software-raster-sdl2.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0399B2E917F35C1D005ACCBE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				03A3F60E1A9DBFDC005F8731 /* OpenGL.framework */,
-				03A3F60C1A9DBB21005F8731 /* AppKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		0399B2F017F35C1D005ACCBE /* SDL2_template */ = {
