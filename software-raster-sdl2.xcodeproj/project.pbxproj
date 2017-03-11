@@ -10,8 +10,6 @@
 		0399B2F517F35C1D005ACCBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0399B2F317F35C1D005ACCBE /* InfoPlist.strings */; };
 		0399B2F717F35C1D005ACCBE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0399B2F617F35C1D005ACCBE /* main.c */; };
 		0399B30817F35D84005ACCBE /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0399B30717F35D84005ACCBE /* SDL2.framework */; };
-		03A3F60D1A9DBB21005F8731 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A3F60C1A9DBB21005F8731 /* AppKit.framework */; };
-		03A3F60F1A9DBFDC005F8731 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A3F60E1A9DBFDC005F8731 /* OpenGL.framework */; };
 		03FD05B917F3626700E1F97F /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0399B30717F35D84005ACCBE /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -43,8 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A3F60F1A9DBFDC005F8731 /* OpenGL.framework in Frameworks */,
-				03A3F60D1A9DBB21005F8731 /* AppKit.framework in Frameworks */,
 				0399B30817F35D84005ACCBE /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
